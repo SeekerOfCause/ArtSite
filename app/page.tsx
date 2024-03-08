@@ -1,8 +1,17 @@
+import { getPaintingsURL } from "@/helpers/getFiles";
+import {
+  Box, Typography,
+} from "@mui/material";
 
-export default function Home() {
+
+const paintings = getPaintingsURL();
+console.log(paintings);
+
+
+export default async function Home() {
+ 
   return (
-    <html lang="en">
-      
-    </html>
+    <Box>
+    </Box>
   );
 }
