@@ -3,7 +3,7 @@ import { Storage } from '@google-cloud/storage';
 const bucketName = 'art-site-bucket-1'
 
 const store = new Storage({
-  keyFilename: './assets/something_something_dark_side.json',
+  keyFilename: '../../again.json',
   projectId: 'tough-star-416200'
 });
 
